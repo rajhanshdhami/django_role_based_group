@@ -12,9 +12,9 @@ GROUPS_PERMISSIONS = {
     },
 }
 
-class Command(BaseCommand):
+class command(BaseCommand):
     def __init__(self, *args, **kwargs):
-        super(Command, self).__init__(*args, **kwargs)
+        super(command, self).__init__(*args, **kwargs)
     
     def handle(self, *args, **options):
         #loop group
